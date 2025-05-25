@@ -1,0 +1,17 @@
+#blogPanel {
+  margin:10px
+}
+
+#blogBody {
+  padding:10px  
+}
+
+#signature
+{
+  font-family: MagicBook;
+  font-size: 22px;
+  }
+  
+#inlineLink {
+  text-decoration: underline;  
+}
