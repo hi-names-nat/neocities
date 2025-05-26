@@ -1,200 +1,188 @@
-/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
-   HTML content. To learn how to do something, just try searching Google for questions like
-   "how to change link color." */
-
 :root {
-    --lilac: #C8A2C8;
-    --steel: #4D7EA8;
+  --color-slate: #232430;
+  --color-linkblue: #4557ff;
+  --color-softwhite: #F6F6F1;
+  
+  --color-terminal-green: #00b300;
+  --color-terminal-greenlink: #04ff00;
+  
+  --color-computer-grey: #a8a8a8;
+  --color-computer-grey-click: #878787;
 }
 
 @font-face {
-  font-family: 'Rainy';
-  src: url("_fonts/rainyhearts.ttf") format('truetype');
+  font-family: 'IBM';
+  src: url("_fonts/ibm_vga_mono.ttf") format('truetype');
 }
 
 @font-face {
-  font-family: 'ThinStix';
-  src: url("_fonts/cr-thinstix.ttf") format('truetype');
+  font-family: 'cr_skullboy';
+  src: url("_fonts/cr_skullboy_mono.ttf") format('truetype');
 }
 
-@font-face {
-  font-family: 'MagicBook';
-  src: url("_fonts/cr-magicbook.ttf") format('truetype');
+.portrait {
+  border: 2px inset var(--color-computer-grey);
 }
 
-@font-face {
-  font-family: 'ComicSans';
-  src: url("/_fonts/comicsans.ttf") format('truetype');
+.portrait_table {
+    margin:0;
+    margin-right:10px;
+}
+
+.portrait_table th {
+  padding:0;
+  margin:0;
+
 }
 
 body {
-  background-color: black;
-  color: antiquewhite;
-  font-family: ThinStix;
-  background-image: url('_img/wallpaper.gif');
-  margin: 0;
-}
-
-hr {
-  margin:0 !important;
-  padding:0 !important;
-  box-shadow: 1px 1px 2px black;
-  background-color:grey;
-  border:2px solid grey;
-  
-}
-
-.fakedivider {
-  border: 2px solid grey;
-  box-shadow: 0px 1px 0px black;
-  margin:5px -10px;
-}
-
-.mainBody {
-  
-}
-
-h1:h2:h3:h4:h5:h6 {
-  color:antiquewhite;
-}
-
-h4 {
+  font: 20px 'cr_skullboy', 'mono';
+  background-color: var(--color-softwhite);
 }
 
 a {
-  color: antiquewhite;
-  text-decoration:none;
+  text-decoration: none;
+  color: var(--color-linkblue)
 }
 
-a:hover {
-  text-decoration:none;
-  color:var(--lilac);
+p {
+  margin: 10px 0;
 }
 
-li {
-height: min-content;
-  }
-
-ul {
-  /*list-style-image: url("/bullet_purewhite.png");*/
-  list-style-type:square;
-  font-family: ThinStix;  
-}
-/* Home */
-
-.secretSans {
-  font-family: ComicSans;  
-  font-size:8px;
-}
-
-.scrollingList {
-  overflow:scroll;
-  height:150px;
-  background-color:#575757;
-  background-image: url("_img/panel_pattern_a.png");
-  box-shadow: inset 1px 1px 2px black,
-  1px 1px 1px black;
-  border: 2px solid grey;
-  border-radius:5px
-}
-
-.directoryIFrame {
-  width:150px;
-  height:350px;  
-}
-
-.directory {
-  margin: 0;
-  padding: 0 0;
-}
-
-.directoryEntry {
-  margin: 2px 0;
-  padding: 3px 20px;
-  font-size: 15px;
-}
-
-.columnContainer {
-  display:flex;
-  flex-flow:column;
-  justify-content:center;
-  flex-grow:3
-}
-
-.homePanel {
-  background-image: url("_img/panel_pattern.png");
-  border: 2px solid grey;
-  box-shadow: inset 1px 1px 2px black,
-  5px 1px 1px black;
-  border-radius:2px;
-  flex-grow:inherit;
-  padding:10px;
-  display:flex;
-  flex-flow:column;
-}
-
-.panelPanel {
-  background-image: url("_img/panel_pattern_a.png");
-  border: 2px solid grey;
-  box-shadow: inset 1px 1px 2px black,
-  1px 1px 1px black;
-  border-radius:5px
-}
-
-.hidden {
-  color: #6f6969  
-}
-
-.button {
-  margin: 2px;
-  width:88px;
-  height:31px;
-}
-
-#iframebody {
-  background-image:none;  
-}
-
-#aside {
-  font-size: 12px;  
-  margin:12px;
-}
-
-#ImageHead {
-  background-image: url("_img/splatsville-dusk-blur.png");
-  display: flex;
-  flex-flow: column;
-  padding: 5px 0;
-  height: 150px;
-  margin-top: 0;
-  border-top: none;
-  justify-content: end;
-  box-shadow: inset 1px 0px 2px black;
-}
-
-#sideHeader {
-  text-align:center;
-  margin-bottom:5px;
-  margin-top:2px;
-}
-
-#welcome {
-  font-size: 18px;
-}
-
-/* Writings */
-
-.dingParent:hover > .dingChild {
-  color: var(--lilac);
-  text-decoration: underline var(--lilac)
-}
-
-.SummaryBody:hover {
-    color: antiquewhite;
-    text-decoration: none;
-}
+th {
   
-.SummaryQuote:hover {
-    color: antiquewhite;
-    text-decoration: none;
+  }
+  
+table {
+  padding: 0;  
+}
+
+th, td, tr {
+  
+  }
+  
+tc {
+  border: 2px solid var(--color-softwhite);
+}
+
+h1,h2,h3 {
+  background-color: var(--color-slate);
+  text-align: center;
+  color: white;
+}
+
+button {
+  font: 18px 'cr_skullboy', 'mono';
+  }
+  
+.inline-aside {
+  font-size: 16px;
+  color: var(--color-computer-grey)
+}
+
+.img_floater {
+  position: fixed;
+  right: -10%;
+  height: 100%;
+  opacity: .2;
+}
+
+.content {
+  display: inline-block;
+  position: absolute;
+  top: 0px;
+  left: 200px;
+  padding: 10px;
+  max-width: 45%;
+  }
+  
+.content-box-generic {
+  background-color: rgba(0.6, 0.6, 0.6, 0.1);
+  padding: 10px 15px;
+  border-radius: 2px;
+}
+
+.content-box-generic-table {
+  border-radius: 2px;
+}
+
+.content-box-generic-table > tr, td, th {
+  background-color: rgba(0.6, 0.6, 0.6, 0.1);
+  padding: 4px 8px;
+  margin: 2px;
+}
+
+.content-box-generic-table > td, th {
+  padding: 2px 15px;  
+  margin: 2px
+}
+
+.content-box-generic-table-header {
+  text-align: left;
+  font-size: 20px;
+  border-bottom: 1px dotted grey;
+  font: 22px 'IBM', 'monospace';
+}
+
+.content-box-generic-table-header2 {
+  text-align: left;
+  font: 18px 'IBM', 'monospace';
+  border-bottom: 1px dotted grey;
+}
+
+.content-box-generic-header {
+  text-align: left;
+  font-size: 22px;
+  border-bottom: 1px dotted grey;
+}
+
+.content-box-generic-header2 {
+  text-align: left;
+  font-size: 20px;
+  border-bottom: 1px dotted grey;
+}
+
+.directory_ibm_nohighlight {
+  font: 16px 'IBM', 'monospace';
+  color: var(--color-slate);
+}
+
+.dos_install_popup{
+  background-color: blue;
+  box-shadow: inset 0 0 0 5px blue, inset 0 0 0 10px white;
+  padding: 15px;
+  color: white;
+  margin: 10px 0px;
+  }
+  
+.dos-button{
+  border: 4px outset var(--color-computer-grey);
+  background-color: var(--color-computer-grey);
+  color: black;
+  text-align:center;
+  padding: 0 25px
+}
+
+.dos-button:hover {
+  border: 4px inset var(--color-computer-grey);
+  background-color: var(--color-computer-grey);
+  cursor: pointer;
+}
+
+.dos-button:active {
+  border: 4px inset var(--color-computer-grey-click);
+  background-color: var(--color-computer-grey-click);
+}
+
+.internal-link {
+  font: 16px 'IBM', 'mono';
+  line-height: 100%;
+  margin: 0;
+  padding: 0;
+  white-space: normal;
+  color: var(--color-terminal-green);
+}
+
+.internal-link:hover {
+  color: var(--color-terminal-greenlink);
 }

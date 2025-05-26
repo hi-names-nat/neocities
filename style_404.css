@@ -1,0 +1,16 @@
+.body-404 {
+    background-image: url('/_img/wallpaper.gif');
+    color: white;
+    text-align: center;
+  }
+  
+.stargazing {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.header-404 {
+  background-color: rgba(0,0,0,0);
+}

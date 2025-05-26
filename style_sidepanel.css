@@ -1,0 +1,55 @@
+.sidepanel {
+  display: inline-block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 180px;
+  background-color: var(--color-slate);
+  padding: 10px;
+  color: var(--color-terminal-green);
+  }
+  
+dir {
+  font: 16px 'IBM', 'mono';
+  line-height: 100%;
+  margin: 0;
+  padding: 0;
+  white-space: normal;
+
+  outline-offset: -12px;
+}
+
+dir a {
+  color: var(--color-terminal-greenlink);
+}
+
+li {
+  list-style-type: none
+  }
+
+.dir-collapse {
+  overflow: hidden;
+  max-height: 0;
+}
+
+.dir-collapse-input {
+  display: none;
+  list-style-type: none;
+}
+
+.dir-collapse-input-label::after {
+  content: "+"
+}
+
+.dir-collapse-input-label.open::after {
+  content: "-";
+}
+
+input:checked ~ .dir-collapse {
+  max-height: 100%;
+}
+
+label {
+  cursor: crosshair;  
+}
