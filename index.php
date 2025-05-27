@@ -3,18 +3,17 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HEX : HOME</title>
+    <title>HEX/HOME</title>
     <link href="style.css" rel="stylesheet" type="text/css" media="all">
-    <link href="style_sidepanel.css" rel="stylesheet" type="text/css" media="all">
   </head>
   <body>
-  <img class="img_floater" src="assets/content_guy.jpg">
+  <img class="img_floater" src="_assets/core.png">
     <div class='content'>
       <h1>
       Howdy.
       </h1>
       <table class="portrait_table" align="left" width="200">
-        <tr><th colspan="2"><img align="left" class="portrait" src="assets/content_guy.jpg" width="196" height="235"></th></tr>
+        <tr><th colspan="2"><img align="left" class="portrait" src="_assets/content_guy.jpg" width="196" height="235"></th></tr>
         <th colspan="2">STATS</th>
         <tr>
           <td>
@@ -67,15 +66,15 @@
         </tr>
       </table>
 
-        I'm Hex (<a class="inline-aside">She/It</a> <img src="/_img/trans_flag.jpg" style="height:10px"> <img style="height:14px" src="assets/theta-delta.png">), a dragons on the internet! This is (what I hope to be) my unified thingsplace. 
+        I'm Hex (<a class="inline-aside">She/It</a> <img src="/_img/trans_flag.jpg" style="height:10px"> <img style="height:14px" src="_assets/theta-delta.png">), a dragons on the internet! This is (what I hope to be) my unified thingsplace. 
       </p>
-      <p>I intend for this to be A jumping board to my nonsense, a place for me to dump things I deem not good enough for "the real places", 
+      <p>I intend for this to be a jumping board to my nonsense, a place for me to dump things I deem not good enough for "the real places", 
       and a place to hopefully grow a bit of a community and lessen or remove my usage of social media sites, 
       something I have grown increasingly bitter of over the recent past. </p>
       <p>additionally, i hope for this to be something of a place to express myself, place my self and my art and my everything. 
         Build up potential album or artist aesthetics, field ideas from the folks interested in what I do. the like.</p>
       <p><b>Glad to have you here.</b></p>
-      <br>  
+      <br>
       <p style="margin-top:25px">
       To the left is the navigation, but here's some quick links to The Other Places if you'd like to head over there.
       </p>
@@ -180,7 +179,7 @@
         </tr>
         <tr>
           <th style="width:125px">
-            <a href="writings" class="internal-link">THANKS AGAIN</a>
+            <a href="writings" class="internal-link">THX & CREDITS</a>
           </th>
           <td>Special Thanks and credits.</td>
         </tr>

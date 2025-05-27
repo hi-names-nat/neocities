@@ -5,9 +5,9 @@
         │ <br>
         ├ <a href='index.html'>HOME</a>  <br>
         │ <br>
-        ├ <a href='index.html'>ABOUT</a> <br>
+        ├ <a href='about.php'>ABOUT</a> <br>
         │ <br>
-        ├ <a href='index.html'>BLOG</a> <br>
+        ├ <a href='blog/index.html'>BLOG</a> <br>
         │ <br>
         <li>
         <input id='2' class='dir-collapse-input' type='checkbox'>
@@ -38,7 +38,7 @@
           │ │         <br>
           │ ├ <a>FURSONA</a>   <br>
           │ │         <br>
-          │ ├ <a>THANKS AGAIN</a> <br>
+          │ ├ <a>THX & CREDITS</a> <br>
           │ │         <br>
           │ ├ <a>ASSETS</a> <br>
           </div>
