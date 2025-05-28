@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,13 +7,12 @@
     <link href="style.css" rel="stylesheet" type="text/css" media="all">
   </head>
   <body>
-  <img class="img_floater" src="_assets/core.png">
-    <div class='content'>
+    <div id="content" class='content'>
       <h1>
       Howdy.
       </h1>
-      <table class="portrait_table" align="left" width="200">
-        <tr><th colspan="2"><img align="left" class="portrait" src="_assets/content_guy.jpg" width="196" height="235"></th></tr>
+      <table class="content-box-generic-table portrait_table" align="left" width="200">
+        <tr><th colspan="2"><img alt="TODO" align="left" class="portrait" src="_assets/content_guy.jpg" width="196" height="235"></th></tr>
         <th colspan="2">STATS</th>
         <tr>
           <td>
@@ -62,19 +61,22 @@
           </th>
         </tr>
         <tr>
-          <th colspan="2"><div style="display:flex;justify-content:space-around;">STATUS: <a href="https://www.imood.com/users/hexate_oct"><img src="https://moods.imood.com/display/uname-hexate_oct/imood.gif" alt="The current mood of hexate_oct at www.imood.com" border="1" height="18px"></a></div></th>
+          <th colspan="2"><div style="display:flex;justify-content:center;align-items:center;height:100%;font-size:20px">STATUS: <a href="https://www.imood.com/users/hexate_oct"><img src="https://moods.imood.com/display/uname-hexate_oct/imood.gif" alt="The current mood of hexate_oct at www.imood.com" border="1" height="18px"></a></div></th>
         </tr>
       </table>
 
-        I'm Hex (<a class="inline-aside">She/It</a> <img src="/_img/trans_flag.jpg" style="height:10px"> <img style="height:14px" src="_assets/theta-delta.png">), a dragons on the internet! This is (what I hope to be) my unified thingsplace. 
+        I'm Hex (<b class="inline-aside">She/It</b> <img alt="Transgender" src="/_img/trans_flag.jpg" style="height:10px"> <img alt="Therian" style="height:14px" src="_assets/theta-delta.png">), a dragons on the internet! This is (what I hope to be) my unified thingsplace.
       </p>
+        <br>
       <p>I intend for this to be a jumping board to my nonsense, a place for me to dump things I deem not good enough for "the real places", 
       and a place to hopefully grow a bit of a community and lessen or remove my usage of social media sites, 
       something I have grown increasingly bitter of over the recent past. </p>
+        <br>
       <p>additionally, i hope for this to be something of a place to express myself, place my self and my art and my everything. 
         Build up potential album or artist aesthetics, field ideas from the folks interested in what I do. the like.</p>
+        <br>
       <p><b>Glad to have you here.</b></p>
-      <br>
+        <br><br><br><br>
       <p style="margin-top:25px">
       To the left is the navigation, but here's some quick links to The Other Places if you'd like to head over there.
       </p>
@@ -83,8 +85,8 @@
         <div style="display:flex;width:100%;justify-content:space-around">
         <a href="https://bsky.app/profile/hexdrgn.bsky.social"><button class="dos-button" >BSky</button></a>
         <a href="https://bsky.app/profile/hexdrgn.bsky.social"><button class="dos-button" >Tumblr</button></a>
-        <a href="https://bsky.app/profile/hexdrgn.bsky.social"><button class="dos-button" >Itch.io</button></a>
-        <a href="https://bsky.app/profile/hexdrgn.bsky.social"><button class="dos-button" >Bandcamp</button></a>
+        <a href="https://hexdrgn.itch.io/"><button class="dos-button" >Itch.io</button></a>
+        <a href="https://hexdrgn.bandcamp.com"><button class="dos-button" >Bandcamp</button></a>
       </div>
       </div>
       <p>
@@ -112,7 +114,7 @@
           <th style="width:125px">
             <a href="about" class="internal-link">ABOUT</a>
           </th>
-          <td> A small autobiography/manifesto/mission statement, to try my damnest to put my presence in context.</td>
+          <td> An autobiography/manifesto/mission statement, to try my damnest to put my presence in context.</td>
         </tr>
         <tr>
           <th style="width:125px">
@@ -203,14 +205,14 @@
       <p>
         On the sidenav you may notice the "+" besides the directory listings. You can click on those to view their contents.
       </p>
-      <div style="display:flex;justify-content:center;">
+      <div style="display:flex;justify-content:center;" aria-hidden="true" role="presentation">
         <img src="/_img/construction.gif" />
         <img src="/_img/construction.gif" />
         <img src="/_img/construction.gif" />
       </div>
       <p>
         A good bit of this site is still a work in progress. It will likely always be. As I add content, inevitably 
-        things will be shifted around and structure will be adjusted. Accessability is still a major concern, though it should be ... fine ...
+        things will be shifted around and structure will be adjusted. Accessibility is still a major concern, though it should be ... fine ...
       </p>
       <p>
         Have fun, go ahead and contact me if there's any issues you run into.
@@ -224,7 +226,7 @@
           <a href="https://youareanidiot.cc/safe/" target="_"><button class="dos-button">OK</button></a>
         </div>
       </div>
-      <div style="display:flex;flex-wrap:wrap;  width:100%">
+      <div style="display:flex;flex-wrap:wrap;width:100%;" aria-hidden="true" role="presentation">
               <img class="button" src="_buttons/trans.png">
               <img class="button" src="_buttons/desktop.gif">
               <img class="button" src="_buttons/nya2.gif">
@@ -254,7 +256,7 @@
               <img class="button" src="_buttons/button_php.png">
               <img class="button" src="_buttons/goodppl.png">
               <img class="button" src="_buttons/selfmade.png">
-            </div>
+        </div>
     </div>
     <?php require '_php_components/navbar.php' ?>
   </body>

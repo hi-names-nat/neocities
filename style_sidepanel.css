@@ -8,6 +8,7 @@
   background-color: var(--color-slate);
   padding: 10px;
   color: var(--color-terminal-green);
+  tab-index: 0;
   }
   
 dir {
@@ -24,9 +25,26 @@ dir a {
   color: var(--color-terminal-greenlink);
 }
 
+dir a:hover {
+  color: var(--color-terminal-greenlink-hover);
+  font-weight: bold;
+}
+
 li {
   list-style-type: none
   }
+
+.skip-content {
+  overflow: hidden;
+  max-height: 0;
+  background-color: var(--color-computer-grey);
+  border: none;
+  margin: 10px 0;
+}
+
+.skip-content:focus-within {
+  max-height:100%;
+}
 
 .dir-collapse {
   overflow: hidden;

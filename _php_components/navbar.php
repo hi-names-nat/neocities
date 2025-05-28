@@ -1,20 +1,22 @@
 <link href="/style_sidepanel.css" rel="stylesheet" type="text/css" media="all">
-<div class='sidepanel'>
+<img class="img_floater" src="/_assets/core.png" aria-hidden="true" role="presentation">
+<nav class='sidepanel'>
+    <div class="dos-button skip-content"><a class="skip-content" href="#content">Skip to main content</a></div>
       <dir>
         FS /  <br>
         │ <br>
-        ├ <a href='index.html'>HOME</a>  <br>
+        ├ <a href='/index.php'>HOME</a>  <br>
         │ <br>
-        ├ <a href='about.php'>ABOUT</a> <br>
+        ├ <a href='/about.php'>ABOUT</a> <br>
         │ <br>
-        ├ <a href='blog/index.html'>BLOG</a> <br>
+        ├ <a href='/blog/index.php'>BLOG</a> <br>
         │ <br>
         <li>
         <input id='2' class='dir-collapse-input' type='checkbox'>
-        ├ <a href='index.html'>CONTACT/</a> <label class='dir-collapse-input-label' id='2_label' for='2'></label><br>
+        ├ <a href='/contact/index.php'>CONTACT/</a> <label class='dir-collapse-input-label' id='2_label' for='2'></label><br>
         <div class='dir-collapse'>
           │ │         <br>
-          │ ├ <a>QandA</a>
+          │ ├ <a href="/contact/q-and-a.php">QandA</a>
         </div>
         </li>
         │ <br>
@@ -45,8 +47,12 @@
         </li>
           │          <br>
           ├ <a>SUPPORT</a> <br>
+
       </dir>
+    <div>
+        <a href="" style="position: absolute;bottom: 30px;text-align: center">Want music while you browse?</a>
     </div>
+    </nav>
     <script>
     for (const lbl of document.getElementsByClassName('dir-collapse-input-label')) {
       lbl.onclick = function() {

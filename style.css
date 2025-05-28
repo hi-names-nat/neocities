@@ -3,8 +3,9 @@
   --color-linkblue: #4557ff;
   --color-softwhite: #F6F6F1;
   
-  --color-terminal-green: #00b300;
-  --color-terminal-greenlink: #04ff00;
+  --color-terminal-green: #009600;
+  --color-terminal-greenlink: #03ca00;
+  --color-terminal-greenlink-hover: #04ff00;
   
   --color-computer-grey: #a8a8a8;
   --color-computer-grey-click: #878787;
@@ -19,24 +20,8 @@
   font-family: 'cr_skullboy';
   src: url("_fonts/cr_skullboy_mono.ttf") format('truetype');
 }
-
-.portrait {
-  border: 4px inset var(--color-computer-grey);
-}
-
-.portrait_table {
-    margin:0;
-    margin-right:10px;
-}
-
-.portrait_table th {
-  padding:0;
-  margin:0;
-
-}
-
 body {
-  font: 20px 'cr_skullboy', 'mono';
+  font: 22px 'cr_skullboy', 'mono';
   background-color: var(--color-softwhite);
 }
 
@@ -69,6 +54,7 @@ h1,h2,h3 {
   background-color: var(--color-slate);
   text-align: center;
   color: white;
+  padding: 5px 0;
 }
 
 button {
@@ -77,7 +63,6 @@ button {
   
 .inline-aside {
   font-size: 16px;
-  color: var(--color-computer-grey)
 }
 
 .img_floater {
@@ -94,7 +79,8 @@ button {
   top: 0px;
   left: 200px;
   padding: 10px;
-  max-width: 45%;
+  max-width: 750px;
+  tab-index: 1;
   }
 
 .h0 {
@@ -155,6 +141,26 @@ button {
   border-bottom: 1px dotted grey;
 }
 
+.portrait {
+  border: 4px inset var(--color-computer-grey);
+}
+
+.portrait_table {
+  margin:0;
+  margin-right:10px;
+}
+
+.portrait_table th {
+  padding:0;
+  margin:0;
+}
+
+.portrait_table td {
+  padding:0;
+  margin:0;
+  text-align: center;
+}
+
 .directory_ibm_nohighlight {
   font: 16px 'IBM', 'monospace';
   color: var(--color-slate);
@@ -176,8 +182,8 @@ button {
   padding: 0 25px
 }
 
-.dos-button:hover {
-  border: 4px inset var(--color-computer-grey);
+.dos-button:hover, .dos-button:focus-within {
+  border: 4px inset var(--color-computer-grey); !important;
   background-color: var(--color-computer-grey);
   cursor: pointer;
 }
@@ -188,7 +194,7 @@ button {
 }
 
 .internal-link {
-  font: 16px 'IBM', 'mono';
+  font: 17px 'IBM', 'mono';
   line-height: 100%;
   margin: 0;
   padding: 0;
