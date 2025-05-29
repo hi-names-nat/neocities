@@ -22,7 +22,7 @@
         │ <br>
         <li>
         <input id='1' class='dir-collapse-input' type='checkbox'>
-        ├ <a>CREATION/</a> <label class='dir-collapse-input-label' id='1_label' for='1'></label><br>
+        ├ <a href="/creation/">CREATION/</a> <label class='dir-collapse-input-label' id='1_label' for='1'></label><br>
           <div class='dir-collapse'> 
           │ │         <br>
           │ ├ <a>GAMES</a>   <br>
