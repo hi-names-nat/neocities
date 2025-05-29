@@ -14,22 +14,57 @@
 <body>
     <div class="content" id="content">
         <h1 class="h0" aria-hidden="true" role="presentation">blogblogblogblogblogblogblog<b class="h0_inner" aria-hidden="false">Blog</b>blogblogblogblogblog</h1>
-        <?php 
+        <?php
             require __DIR__ . '/../vendor/autoload.php';
             use Michelf\MarkdownExtra;
-            $dir = new DirectoryIterator("entries/");
-            $arr = array();
-            foreach ($dir as $fileinfo) {
-                if (!$fileinfo->isDot()) {
-                    $file = file_get_contents("entries/" . $fileinfo);
-                    array_push($arr, $file);
-                }
+
+            $start = $_GET['start']; if (empty($start)) {$start = 0;}
+            $amt = $_GET['amt']; if (empty($amt)) {$amt = 5;}
+            $rev = $_GET['rev']; if (empty($rev)) {$rev = false;}
+
+            $next_entry = $start;
+
+            $arr = scandir("entries/");
+            array_shift($arr); array_shift($arr); //remove . and ..
+
+            $arr_size = count($arr);
+
+            if ($rev) {sort($arr);}
+            else {rsort($arr);}
+            while ($next_entry < $amt + $start && $next_entry < count($arr)) {
+                echo MarkdownExtra::defaultTransform(file_get_contents("entries/" . $arr[$next_entry]));
+                $next_entry++;
             }
-            rsort($arr);
-            foreach ($arr as $val){
-                echo MarkdownExtra::defaultTransform($val);
-            }
+
         ?>
+        <table style="width: 100%; text-align: center;">
+            <tr>
+                <td>
+                    <?php
+                    $last = $start - $amt;
+                    if ($last < 1) {$last = 0;}
+
+                    if ($start==0) echo("prev");
+                    else echo("<a href='./index.php?start=$last&amt=$amt&rev=$rev'>prev</a>"); ?></td>
+                <td>
+                    posts per page<br>
+                    <a href="./index.php?start=<?=$start?>&amt=5&rev=<?=$rev?>">5</a>
+                    <a href="./index.php?start=<?=$start?>&amt=10&rev=<?=$rev?>">10</a>
+                    <a href="./index.php?start=<?=$start?>&amt=20&rev=<?=$rev?>">20</a>
+                    <br>
+                    <a href="./index.php?start=<?=$start?>&amt=<?=$amt?>&rev=0">
+                        newest first
+                    </a>
+                    <span style="width:20px;display: inline-block"></span>
+                    <a href="./index.php?start=<?=$start?>&amt=<?=$amt?>&rev=1">
+                        oldest first
+                    </a>
+                </td>
+                <td><?php
+                    if ($next_entry==$arr_size) echo("next");
+                    else echo("<a href='./index.php?start=$next_entry&amt=$amt&rev=$rev'>next</a>"); ?></td>
+            </tr>
+        </table>
     </div>
 
     <?php require '../_php_components/navbar.php' ?>

@@ -23,7 +23,7 @@
     <table class="content-box-generic-table">
         <tr>
             <th colspan="2" class="content-box-generic-table-header">
-                Creation (Subsections
+                Creation (Subsections)
             </th>
         </tr>
         <tr>
