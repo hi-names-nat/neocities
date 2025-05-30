@@ -7,8 +7,9 @@
     <link href="style.css" rel="stylesheet" type="text/css" media="all">
   </head>
   <body>
+    <?php require '_php_components/navbar.php' ?>
     <div class='content' id="content">
-        <h1 class="h0" aria-hidden="true" role="presentation">aboutaboutaboutaboutaboutabout<b class="h0_inner" aria-hidden="false">About</b>aboutaboutabout</h1>
+        <h1 class="h0" aria-hidden="true" role="presentation">aboutaboutaboutaboutaboutaboutaboutaboutaboutaboutaboutaboutabout<b class="h0_inner" aria-hidden="false">About</b></h1>
         <p>It's hard to write things like this without it feeling kind of like a circlejerk for yourself...</p>
         <p>Ah well!</p>
         <p>
@@ -194,6 +195,5 @@
         </p>
         <p>Thank you for reading. I appreciate it.<br>&emsp;- Hex</p>
     </div>
-    <?php require '_php_components/navbar.php' ?>
   </body>
 </html>

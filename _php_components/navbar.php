@@ -50,7 +50,7 @@
 
       </dir>
     <div>
-        <a href="" style="position: absolute;bottom: 30px;text-align: center">Want music while you browse?</a>
+        <a href="/creation/music/nettunes.php" target="_" style="position: absolute;bottom: 30px;width: 100%;left: 0;text-align: center;color:var(--color-terminal-greenlink">Want music while you browse?</a>
     </div>
     </nav>
     <script>

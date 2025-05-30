@@ -7,6 +7,7 @@
     <link href="style.css" rel="stylesheet" type="text/css" media="all">
   </head>
   <body>
+    <?php require '_php_components/navbar.php' ?>
     <div id="content" class='content'>
       <h1>
       Howdy.
@@ -64,9 +65,7 @@
           <th colspan="2"><div style="display:flex;justify-content:center;align-items:center;height:100%;font-size:20px">STATUS: <a href="https://www.imood.com/users/hexate_oct"><img src="https://moods.imood.com/display/uname-hexate_oct/imood.gif" alt="The current mood of hexate_oct at www.imood.com" border="1" height="18px"></a></div></th>
         </tr>
       </table>
-
         I'm Hex (<b class="inline-aside">She/It</b> <img alt="Transgender" src="/_img/trans_flag.jpg" style="height:10px"> <img alt="Therian" style="height:14px" src="_assets/theta-delta.png">), a dragons on the internet! This is (what I hope to be) my unified thingsplace.
-      </p>
         <br>
       <p>I intend for this to be a jumping board to my nonsense, a place for me to dump things I deem not good enough for "the real places", 
       and a place to hopefully grow a bit of a community and lessen or remove my usage of social media sites, 
@@ -212,7 +211,8 @@
       </div>
       <p>
         A good bit of this site is still a work in progress. It will likely always be. As I add content, inevitably 
-        things will be shifted around and structure will be adjusted. Accessibility is still a major concern, though it should be ... fine ...
+        things will be shifted around and structure will be adjusted. I've tried my damnest to make this site accessible
+        and as easy to load as possible.
       </p>
       <p>
         Have fun, go ahead and contact me if there's any issues you run into.
@@ -258,6 +258,5 @@
               <img class="button" src="_buttons/selfmade.png">
         </div>
     </div>
-    <?php require '_php_components/navbar.php' ?>
   </body>
 </html>

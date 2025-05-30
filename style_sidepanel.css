@@ -64,6 +64,11 @@ li {
   content: "-";
 }
 
+.dir-collapse:focus-within {
+  max-height: 100%;
+  padding-bottom: 1px;
+}
+
 input:checked ~ .dir-collapse {
   max-height: 100%;
 }

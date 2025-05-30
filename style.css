@@ -88,9 +88,17 @@ button {
   background-color: var(--color-slate);
   font-size: 30px;
   overflow: hidden;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.h0_inner{
+.h0 > b{
+  background-color:var(--color-slate);
+  position: absolute;
+  right: 20%;
+  z-index: 0;
   color: var(--color-softwhite);
   font-size: 60px;
 }
@@ -204,4 +212,9 @@ button {
 
 .internal-link:hover {
   color: var(--color-terminal-greenlink);
+}
+
+.awaw:before  {
+  content: '|\A|-';
+  white-space: pre;
 }
