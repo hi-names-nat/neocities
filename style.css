@@ -30,6 +30,14 @@ a {
   color: var(--color-linkblue)
 }
 
+h1 a {
+  color: var(--color-terminal-greenlink);
+}
+
+h1 a:hover {
+  color: var(--color-terminal-greenlink-hover);
+}
+
 p {
   margin: 10px 0;
 }

@@ -8,6 +8,12 @@ h1 {
     padding: 0;
 }
 
+.content-box-transparent {
+    background-color: #6f6969D5;
+    color:white;
+    padding:5px
+}
+
 p {
     margin: 0 10px;
 }
