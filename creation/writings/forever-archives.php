@@ -6,8 +6,10 @@
     <title>HEX/HOME</title>
     <link href="/style.css" rel="stylesheet" type="text/css" media="all">
     <!--    <link href="writings_styles.css" rel="stylesheet" type="text/css" media="all">-->
+    <link href="fa-styles.css" rel="stylesheet" type="text/css" media="all">
 </head>
 <body>
+<?php $navbar_color_invert=true; ?>
 <?php require '../../_php_components/navbar.php' ?>
 <div id="content" class='content'>
     <p><a href="index.php">back to landing</a></p>
@@ -27,7 +29,7 @@
     echo MarkdownExtra::defaultTransform(file_get_contents("fa/" . $arr[$sel]));
 
     ?>
-    <table style="width: 100%">
+    <table style="width: 100%;background-color: white">
         <?php
         $counter = 0;
         foreach ($arr as $file) {

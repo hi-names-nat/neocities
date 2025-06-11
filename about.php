@@ -13,7 +13,7 @@
         <p>It's hard to write things like this without it feeling kind of like a circlejerk for yourself...</p>
         <p>Ah well!</p>
         <p>
-            I'm Hex (She/It, 2001/10/15, short for ???). 
+            I'm Hexaaelia. (She/It, 2001/10/15, Hex for short).
             I'm a transfemme therian dragon with a hoard of obsolete tech and a penchant for the odd and obscure.
             I grew up in various suburban sattelites in Ohio, and eventually made my way to Western New York in an attempt
             to get away from the anti-me policies coming after my hide.
