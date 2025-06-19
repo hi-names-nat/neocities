@@ -78,7 +78,7 @@
             <p>
                 A bit of lore written because I was bored. A solution to snail-mail services in a world where
                 a society spanned dimensions. Part of "Lore For Nothing", a project of mine to write lore
-                without the exoectation of a world to tie it to.
+                without the expectation of a world to tie it to.
             </p>
             <table class="content-box-generic-table" style="width: 100%">
                 <tr>
@@ -104,7 +104,9 @@
         <div class="content-box-transparent">
             <p>
                 A place where I put writings that otherwise would rot in drafts. Stuff that I do not want to place elsewhere
-                however I created them and I still need to get them out of me.
+                however I created them and I still need to get them out of me.<br>
+                I do not stand by any of this work. It is garbage, where my garbage emotions go. Don't get pissed at me
+                for what's in here, alright?
             </p>
             <table class="content-box-generic-table" style="width: 100%">
                 <tr>

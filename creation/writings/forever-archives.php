@@ -11,7 +11,7 @@
 <body>
 <div id="content" class='content'>
     <div style="display: inline-block; position: fixed; top:0;left:0;width:180px">
-        <p><a href="index.php" tabindex="0">ESCAPE</a></p>
+        <p><a href="index.php" tabindex="0">resurface</a></p>
         <p style="color:black" aria-hidden="true" >
             There is nothing.<br>
             Your search will only bring you more pain.<br>

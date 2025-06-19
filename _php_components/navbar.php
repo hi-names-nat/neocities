@@ -1,5 +1,9 @@
 <link href="/style_sidepanel.css" rel="stylesheet" type="text/css" media="all">
-<img class="img_floater" src="/_assets/core.png" aria-hidden="true" role="presentation">
+<?php
+    if  (!$NoCore) {
+        echo "<img class='img_floater' src='/_assets/core.png' aria-hidden='true' role='presentation'>";
+    }
+?>
 <nav class='sidepanel'>
     <div class="dos-button skip-content"><a class="skip-content" href="#content">Skip to main content</a></div>
       <dir>

@@ -15,6 +15,7 @@
       <table class="content-box-generic-table portrait_table" align="left" width="200">
         <tr><th colspan="2"><img alt="TODO" align="left" class="portrait" src="_assets/content_guy.jpg" width="196" height="235"></th></tr>
         <th colspan="2">STATS</th>
+        <tr><th colspan="2">CLASS: ART/MAG</th></tr>
         <tr>
           <td>
             HP: 12/30
