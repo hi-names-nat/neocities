@@ -39,15 +39,7 @@
         </tr>
         <tr>
             <th>
-                <a href="games/adoorable.php">Adoorable Hotel</a>
-            </th>
-            <td>
-                A game jam game. An attempt to make a parody horror game. Not that great, and a bit confusing.
-            </td>
-        </tr>
-        <tr>
-            <th>
-                <a href="games/nscm.php">Netscape Cybermind</a>
+                <a href="games/index.php#nscm">Netscape Cybermind</a>
             </th>
             <td>
                 A half-like set in a web-1.0 inspired VR world. Concepted by my dear friend Josh Wilson, I was tasked
@@ -56,7 +48,7 @@
         </tr>
         <tr>
             <th>
-                <a href="games/nhx.php">Next Horizon Experience</a>
+                <a href="games/index.php#nhx">Next Horizon Experience</a>
             </th>
             <td>
                 A small experiment in living virtual spaces.
@@ -66,10 +58,18 @@
         </tr>
         <tr>
             <th>
-                <a href="games/sasg.php">Steady As She Goes</a>
+                <a href="games/index.php#sasg">Steady As She Goes</a>
             </th>
             <td>
-                A game I made singlehandedly for LD52. Inspired by star trek and management sims.
+                A game I made for LD52. Inspired by star trek and management sims.
+            </td>
+        </tr>
+        <tr>
+            <th>
+                <a href="games/index.php#rvti">RENNE VS. THE INTERNET</a>
+            </th>
+            <td>
+                My current project.
             </td>
         </tr>
         <tr>
