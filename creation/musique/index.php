@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HEX/HOME</title>
     <link href="/style.css" rel="stylesheet" type="text/css" media="all">
-    <link href="musique.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/schematic.css" rel="stylesheet" type="text/css" media="all">
 
 </head>
 <body>

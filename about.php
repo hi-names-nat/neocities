@@ -5,9 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HEX/ABOUT</title>
     <link href="style.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/schematic.css" rel="stylesheet" type="text/css" media="all">
   </head>
   <body>
-    <?php require '_php_components/navbar.php' ?>
+    <?php
+    $NoCore = true;
+    require '_php_components/navbar.php' ?>
     <div class='content' id="content">
         <h1 class="h0" aria-hidden="true" role="presentation">aboutaboutaboutaboutaboutaboutaboutaboutaboutaboutaboutaboutabout<b class="h0_inner" aria-hidden="false">About</b></h1>
         <p>It's hard to write things like this without it feeling kind of like a circlejerk for yourself...</p>
@@ -42,8 +45,9 @@
         </p>
         <p>
             At the same time, I began paying attention to the odd gray box sitting in the den. It intrigued me. Every so often,
-            I'd jump on it. The greeting of Windows XP's welcome tune always a pleasant presence. I was given a user account to play
-            the few PC games I had acquired. But I had found something perhaps more interesting... The Internet.
+            I'd be given the privelege to use it. The greeting of Windows XP's welcome tune always a pleasant presence.
+            I was given a user account to play the few PC games I had acquired. But I had found something perhaps more interesting...
+            The Internet.
         </p>
         <h1>Surf's Up</h1>
         <p>
@@ -163,13 +167,7 @@
             My friend suggested I listened to Halley Labs (though, I had known them as Lapfox Trax). I had of course listened to Kitsune<sup>2</sup>
             albums released over a decade ago, but I had not stayed up to date. I obliged, and-
         </p> 
-        <p>It was that moment I heard Sad Machine all over again. I had to make this. I had to do this.</p>
-        <p>
-            I tried to be an artist like Porter Robinson for too long. em essex as Halley Labs, was something else.
-            Unchained by expectation of cost. Free. Willing to do anything that they felt like. And it was <b>characterful</b>.
-            It was suddenly easy to write music. What was once difficult due to my own expectation, wasn't.
-            It was fun. I was okay with making whatever my spark shaped the noise into.
-        </p>
+        <p>It was that moment all over again. I had to make this. I had to do this.</p>
         <h1>O.K. Computer!</h1>
         <p>
             The computer, in many forms, has underscored my entire life, from the game consoles that defined my earliest memories
@@ -177,10 +175,9 @@
             robbed of the ability by combination mental illness and abuse.
         </p>
         <p>
-            The computer lead me to my drive to understand, to learn, to play and tinker. It lead me to its own history,
-            which in turn made me love it more. A dragon
-            maintains a hoard, and for me, that hoard is retro technology. It lead me, most important of all, to connect.
-            It allowed me to find creatures whom I hold dear and will hold dear my entire life.
+            The computer lead me to my drive to understand, to learn, to play and tinker. It led me to its own history,
+            which in turn made me love it more. Dragons usually maintain hoards, and for me, that hoard is old computers.
+            It led me, most important of all, to connect; to find creatures whom I hold dear and will hold dear my entire life.
         </p>
         <p>
             Recently though, it's less fun. As corporate interests clash against the inherent spark of the internet to be
@@ -189,9 +186,10 @@
             self-hosted websites. That is why this place exists.
         </p>
         <p>
-            There is always more to write. I shall maintain a blog on this website ideally to include more. This section
-            was originally much longer before I took an axe to approximately 30% of it, to make it a bit more digestible.
-            I do not want to bore you with the minutiae of me, however I do want to be known.
+            There is always more to write. I maintain a blog on this website ideally to include more. This section
+            was originally much longer before I took an axe to approximately 30% of it to make it a bit more digestible.
+            I do not want to bore you with the minutiae of me, however I do want to be known. I do not think that is too
+            much to ask.
         </p>
         <p>Thank you for reading. I appreciate it.<br>&emsp;- Hex</p>
     </div>

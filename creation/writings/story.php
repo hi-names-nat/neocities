@@ -21,7 +21,7 @@
         else {
             echo "$file";
 
-            echo "<br><p><a href='index.php'>back to landing</a></p>";
+            echo "<br><p><a href='home.php'>back to landing</a></p>";
         }
     ?>
 </div>

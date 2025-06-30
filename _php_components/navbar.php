@@ -9,15 +9,15 @@
       <dir>
         FS /  <br>
         │ <br>
-        ├ <a href='/index.php'>HOME</a>  <br>
+        ├ <a href='/home.php'>HOME</a>  <br>
         │ <br>
         ├ <a href='/about.php'>ABOUT</a> <br>
         │ <br>
         ├ <a href='/blog/index.php'>BLOG</a> <br>
         │ <br>
         <li>
-        <input id='2' class='dir-collapse-input' type='checkbox'>
-        ├ <a href='/contact/index.php'>CONTACT/</a> <label class='dir-collapse-input-label' id='2_label' for='2'></label><br>
+        <input id='1' class='dir-collapse-input' type='checkbox'>
+        ├ <a href='/contact/index.php'>CONTACT/</a> <label class='dir-collapse-input-label' id='1_label' for='1'></label><br>
         <div class='dir-collapse'>
           │ │         <br>
           │ ├ <a href="/contact/q-and-a.php">QandA</a>
@@ -25,8 +25,8 @@
         </li>
         │ <br>
         <li>
-        <input id='1' class='dir-collapse-input' type='checkbox'>
-        ├ <a href="/creation/">CREATION/</a> <label class='dir-collapse-input-label' id='1_label' for='1'></label><br>
+        <input id='2' class='dir-collapse-input' type='checkbox'>
+        ├ <a href="/creation/">CREATION/</a> <label class='dir-collapse-input-label' id='2_label' for='2'></label><br>
           <div class='dir-collapse'> 
           │ │         <br>
           │ ├ <a>GAMES</a>   <br>
@@ -58,9 +58,22 @@
     </div>
     </nav>
     <script>
+    let i = 0;
+    let collapses = document.getElementsByClassName('dir-collapse-input');
     for (const lbl of document.getElementsByClassName('dir-collapse-input-label')) {
+        let val = "hexaaelia_nav_state_" + i.toString()
+        var a = localStorage.getItem(val);
+        if (a) {
+            lbl.classList.add(a);
+            collapses[i].checked = true
+        }
       lbl.onclick = function() {
         lbl.classList.toggle('open');
+          if (lbl.classList.contains('open'))
+            localStorage.setItem(val, 'open');
+          else
+            localStorage.removeItem(val);
       }
+        i++
     }
     </script>

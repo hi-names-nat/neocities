@@ -45,24 +45,24 @@
                     if ($last < 1) {$last = 0;}
 
                     if ($start==0) echo("prev");
-                    else echo("<a href='./index.php?start=$last&amt=$amt&rev=$rev'>prev</a>"); ?></td>
+                    else echo("<a href='/blog?start=$last&amt=$amt&rev=$rev'>prev</a>"); ?></td>
                 <td>
                     posts per page<br>
-                    <a href="./index.php?start=<?=$start?>&amt=5&rev=<?=$rev?>">5</a>
-                    <a href="./index.php?start=<?=$start?>&amt=10&rev=<?=$rev?>">10</a>
-                    <a href="./index.php?start=<?=$start?>&amt=20&rev=<?=$rev?>">20</a>
+                    <a href="/blog?start=<?=$start?>&amt=5&rev=<?=$rev?>">5</a>
+                    <a href="/blog?start=<?=$start?>&amt=10&rev=<?=$rev?>">10</a>
+                    <a href="/blog?start=<?=$start?>&amt=20&rev=<?=$rev?>">20</a>
                     <br>
-                    <a href="./index.php?start=<?=$start?>&amt=<?=$amt?>&rev=0">
+                    <a href="/blog?start=<?=$start?>&amt=<?=$amt?>&rev=0">
                         newest first
                     </a>
                     <span style="width:20px;display: inline-block"></span>
-                    <a href="./index.php?start=<?=$start?>&amt=<?=$amt?>&rev=1">
+                    <a href="/blog?start=<?=$start?>&amt=<?=$amt?>&rev=1">
                         oldest first
                     </a>
                 </td>
                 <td><?php
                     if ($next_entry==$arr_size) echo("next");
-                    else echo("<a href='./index.php?start=$next_entry&amt=$amt&rev=$rev'>next</a>"); ?></td>
+                    else echo("<a href='/blog?start=$next_entry&amt=$amt&rev=$rev'>next</a>"); ?></td>
             </tr>
         </table>
     </div>

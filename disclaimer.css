@@ -1,0 +1,15 @@
+.center_div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 800px;
+    transform: translate(-50%, -50%);
+}
+
+.center_box {
+    position: relative;
+}
+
+.bg_cyan {
+    background-color: #008080;
+  }

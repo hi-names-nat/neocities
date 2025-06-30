@@ -1,5 +1,5 @@
 # Entry #2 - Gaming (sun glass emoji)
-### 11/6/24
+## 11/6/24
 
 \#2! Well. A lot happened huh.
 
