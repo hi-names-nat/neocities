@@ -1,16 +1,16 @@
 @font-face {
   font-family: 'Futura';
-  src: url("/_fonts/futura-m.ttf") format('truetype');
+  src: url("/_assets/_fonts/futura-m.ttf") format('truetype');
 }
 
 @font-face {
   font-family: 'Smokum';
-  src: url("/_fonts/smokum.ttf") format('truetype');
+  src: url("/_assets/_fonts/smokum.ttf") format('truetype');
 }
 
 @font-face {
   font-family: 'Raleway';
-  src: url("/_fonts/raleway.ttf") format('truetype');
+  src: url("/_assets/_fonts/raleway.ttf") format('truetype');
 }
 
 

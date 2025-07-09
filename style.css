@@ -9,16 +9,18 @@
   
   --color-computer-grey: #a8a8a8;
   --color-computer-grey-click: #878787;
+  --color-computer-grey-disable: #6f6f6f;
+
 }
 
 @font-face {
   font-family: 'IBM';
-  src: url("_fonts/ibm_vga_mono.ttf") format('truetype');
+  src: url("_assets/_fonts/ibm_vga_mono.ttf") format('truetype');
 }
 
 @font-face {
   font-family: 'cr_skullboy';
-  src: url("_fonts/cr_skullboy_mono.ttf") format('truetype');
+  src: url("_assets/_fonts/cr_skullboy_mono.ttf") format('truetype');
 }
 body {
   font: 22px 'cr_skullboy', 'mono';
@@ -231,6 +233,12 @@ button {
   background-color: var(--color-computer-grey-click);
 }
 
+.dos-button:disabled {
+  border: 4px inset var(--color-computer-grey-click);
+  background-color: var(--color-computer-grey-disable);
+  cursor: not-allowed;
+}
+
 .font_ibm {
   font: 16px 'IBM', 'monospace';
 }
@@ -251,4 +259,8 @@ button {
 .awaw:before  {
   content: '|\A|-';
   white-space: pre;
+}
+
+.disable_link {
+  color: var(--color-computer-grey);
 }

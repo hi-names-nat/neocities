@@ -13,7 +13,7 @@
 </head>
 <body>
     <div class="content" id="content">
-        <h1 class="h0" aria-hidden="true" role="presentation">blogblogblogblogblogblogblog<b class="h0_inner" aria-hidden="false">Blog</b>blogblogblogblogblog</h1>
+        <h1 class="h0" aria-hidden="true" role="presentation">blogblogblogblogblogblogblogblogblogblogblogblogblogblog<b class="h0_inner" aria-hidden="false">Blog</b>blogblogblogblogblog</h1>
         <?php
             require __DIR__ . '/../vendor/autoload.php';
             use Michelf\MarkdownExtra;

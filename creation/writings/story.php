@@ -10,7 +10,7 @@
 <body>
 <?php require '../../_php_components/navbar.php' ?>
 <div id="content" class='content'>
-    <p><a href="index.php">back to landing</a></p>
+    <p><a href="/creation/writings/">back to landing</a></p>
     <br>
     <?php
         $requested = $_GET["story"];
@@ -21,7 +21,7 @@
         else {
             echo "$file";
 
-            echo "<br><p><a href='home.php'>back to landing</a></p>";
+            echo "<br><p><a href='/creation/writings/'>back to landing</a></p>";
         }
     ?>
 </div>

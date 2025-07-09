@@ -19,7 +19,10 @@
             I'm Hexaaelia. (She/It, 2001/10/15, Hex for short).
             I'm a transfemme therian dragon with a hoard of obsolete tech and a penchant for the odd and obscure.
             I grew up in various suburban sattelites in Ohio, and eventually made my way to Western New York in an attempt
-            to get away from the anti-me policies coming after my hide.
+            to get away from the anti-me policies coming after my hide. I've been lucky here, with friends, with finding
+            myself, and with goals. More lucky than I have been throughout most of my life. It has put me in a reflective
+            mood. <br>
+            And so, here we are.
         </p>
         <h1>Loading initial ramdisk...</h1>
         <p>

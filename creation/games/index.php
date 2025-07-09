@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HEX/HOME</title>
     <link href="/style.css" rel="stylesheet" type="text/css" media="all">
-    <link href="writings_styles.css" rel="stylesheet" type="text/css" media="all">
-    <link href="games.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/creation/writings/writings_styles.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/creation/games/games.css" rel="stylesheet" type="text/css" media="all">
 
 </head>
 <body>
@@ -36,9 +36,9 @@
         </tr>
 
         <tr style="height: max-content">
-            <td class="table_image_container"><img src="https://img.itch.zone/aW1nLzQ3OTg4NTIuZ2lm/original/THqYvX.gif"></td>
-            <td class="table_image_container"><img src="https://img.itch.zone/aW1nLzQ3OTg4ODAuZ2lm/original/Oakb41.gif"></td>
-            <td class="table_image_container"><img src="https://img.itch.zone/aW1nLzQ3OTg5NTYuZ2lm/original/%2BZnUHB.gif"></td>
+            <td class="table_image_container"><img src="/_assets/ns_1.gif"></td>
+            <td class="table_image_container"><img src="/_assets/ns_2.gif"></td>
+            <td class="table_image_container"><img src="/_assets/ns_3.gif"></td>
         </tr>
         <tr>
             <td colspan="3">A game I was approached about forever ago. Did level design for it for a good while.
@@ -59,9 +59,9 @@
         </tr>
 
         <tr style="height: max-content">
-            <td class="table_image_container"><img src="/_img/nhx_0.png"></td>
-            <td class="table_image_container"><img src="/_img/nhx_1.png"></td>
-            <td class="table_image_container"><img src="/_img/nhx_2.png"></td>
+            <td class="table_image_container"><img src="/_assets/nhx_0.png"></td>
+            <td class="table_image_container"><img src="/_assets/nhx_1.png"></td>
+            <td class="table_image_container"><img src="/_assets/nhx_2.png"></td>
         </tr>
         <tr>
             <td colspan="3">A game made with some friends originally for a private community.<br>
@@ -82,9 +82,9 @@
         </tr>
 
         <tr style="height: max-content">
-            <td class="table_image_container"><img src="https://img.itch.zone/aW1hZ2UvMTg2ODY2Mi8xMDk3NzY2Ny5wbmc=/original/4u8hep.png"></td>
-            <td class="table_image_container"><img src="https://img.itch.zone/aW1hZ2UvMTg2ODY2Mi8xMDk3NzY2Ni5wbmc=/347x500/BDZ%2Fq9.png" ></td>
-            <td class="table_image_container"><img src="https://img.itch.zone/aW1hZ2UvMTg2ODY2Mi8xMDk3NzY2NS5wbmc=/347x500/ntb8Uw.png"></td>
+            <td class="table_image_container"><img src="/_assets/sasg_1.png"></td>
+            <td class="table_image_container"><img src="/_assets/sasg_2.png"></td>
+            <td class="table_image_container"><img src="/_assets/sasg_3.png"></td>
         </tr>
         <tr>
             <td colspan="3">A game made for Ludum Dare 53, a game jam.<br>I'm still pretty happy with it. It's fun
@@ -105,9 +105,9 @@
         </tr>
 
         <tr style="height: max-content">
-            <td class="table_image_container"><img src="/_img/rvti_0.png"></td>
+            <td class="table_image_container"><img src="/_assets/rvti_0.png"></td>
             <td class="table_image_container"></td>
-            <td class="table_image_container"><img src="/_img/rvti_1.png"></td>
+            <td class="table_image_container"><img src="/_assets/rvti_1.png"></td>
         </tr>
         <tr>
             <td colspan="3">My current project. RENNE VS. THE INTERNET is an RPG being built alongside an RPG Core

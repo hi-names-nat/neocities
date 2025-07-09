@@ -9,29 +9,29 @@
 
 @font-face {
   font-family: 'Rainy';
-  src: url("_fonts/rainyhearts.ttf") format('truetype');
+  src: url("../_assets/_fonts/rainyhearts.ttf") format('truetype');
 }
 
 @font-face {
   font-family: 'ThinStix';
-  src: url("_fonts/cr-thinstix.ttf") format('truetype');
+  src: url("../_assets/_fonts/cr-thinstix.ttf") format('truetype');
 }
 
 @font-face {
   font-family: 'MagicBook';
-  src: url("_fonts/cr-magicbook.ttf") format('truetype');
+  src: url("../_assets/_fonts/cr-magicbook.ttf") format('truetype');
 }
 
 @font-face {
   font-family: 'ComicSans';
-  src: url("/_fonts/comicsans.ttf") format('truetype');
+  src: url("/_assets/_fonts/comicsans.ttf") format('truetype');
 }
 
 body {
   background-color: black;
   color: antiquewhite;
   font-family: ThinStix;
-  background-image: url('_img/wallpaper.gif');
+  background-image: url('../_assets/wallpaper.gif');
   margin: 0;
 }
 
@@ -95,7 +95,7 @@ ul {
   overflow:scroll;
   height:150px;
   background-color:#575757;
-  background-image: url("_img/panel_pattern_a.png");
+  background-image: url("../_assets/panel_pattern_a.png");
   box-shadow: inset 1px 1px 2px black,
   1px 1px 1px black;
   border: 2px solid grey;
@@ -126,7 +126,7 @@ ul {
 }
 
 .homePanel {
-  background-image: url("_img/panel_pattern.png");
+  background-image: url("../_assets/panel_pattern.png");
   border: 2px solid grey;
   box-shadow: inset 1px 1px 2px black,
   5px 1px 1px black;
@@ -138,7 +138,7 @@ ul {
 }
 
 .panelPanel {
-  background-image: url("_img/panel_pattern_a.png");
+  background-image: url("../_assets/panel_pattern_a.png");
   border: 2px solid grey;
   box-shadow: inset 1px 1px 2px black,
   1px 1px 1px black;
@@ -165,7 +165,7 @@ ul {
 }
 
 #ImageHead {
-  background-image: url("_img/splatsville-dusk-blur.png");
+  background-image: url("../_assets/splatsville-dusk-blur.png");
   display: flex;
   flex-flow: column;
   padding: 5px 0;

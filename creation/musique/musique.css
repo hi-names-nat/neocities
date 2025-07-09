@@ -1,0 +1,33 @@
+.big_table_button {
+    background-color: transparent;
+}
+
+.big_table_button div {
+    background-color: var(--color-terminal-green);
+    width:350px;
+    height:200px;
+    font-size:80px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.big_table_button_interior {
+    padding: 5px;
+    padding-top: 20px;
+    height: min-content !important;
+}
+
+.big_table_button_interior:hover {
+    box-shadow: none !important;
+}
+
+.big_table_button a {
+    color: black;
+}
+
+.big_table_button div:hover {
+    box-shadow: black 2px 2px 5px;
+}

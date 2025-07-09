@@ -76,3 +76,12 @@ input:checked ~ .dir-collapse {
 label {
   cursor: crosshair;  
 }
+
+.content-disabled {
+  color: var(--color-computer-grey-disable)
+}
+
+.content-disabled:hover {
+  color: var(--color-computer-grey-disable);
+  font-weight: normal;
+}

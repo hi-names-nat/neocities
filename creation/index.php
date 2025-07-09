@@ -77,7 +77,7 @@
         </tr>
         <tr>
             <th>
-                <a href="music/dreams.php">RUE - DREAMS</a>
+                <a href="/creation/musique/index.php#rue">RUE - MAGIC</a>
             </th>
             <td>
                 A theme for an unreleased game.
@@ -85,15 +85,19 @@
         </tr>
         <tr>
             <th>
-                <a href="music/nettunes.php">N3TTUNEZ VOL 0.</a>
+<!--                <a href="music/nettunes.php">-->
+                    N3TTUNEZ VOL 0.
+<!--                </a>-->
             </th>
             <td>
-                A few pieces of music composed for browsing this site. WIP
+                A few pieces of music being composed for browsing this site. WIP
             </td>
         </tr>
         <tr>
             <th>
-                <a href="music/wy.php">WITHIN YOURSELF</a>
+<!--                <a href="music/wy.php">-->
+                    WITHIN YOURSELF
+<!--                </a>-->
             </th>
             <td>
                 An experiment into "create a soundtrack for your life". WIP.
@@ -104,7 +108,7 @@
         </tr>
         <tr>
             <th>
-                <a href="writings/dav.php">Dear Alyx Vance</a>
+                <a href="/creation/writings/story.php?story=dav.html">DEAR ALYX VANCE</a>
             </th>
             <td>
                 A Half-Life fanwork about the Black Mesa Incident though Dr. Eli Vance and Dr. Isaac Kleiner's eyes.
@@ -113,7 +117,7 @@
         </tr>
         <tr>
             <th>
-                <a href="writings/lfn.php">Excerpt from "The Handbook to Address and Dimensional Referral"</a>
+                <a href="/creation/writings/story.php?story=handbook.html">Excerpt from "The Handbook to Address and Dimensional Referral"</a>
             </th>
             <td>
                 Part of "Lore for Nothing", an initiative of mine to create lore without the requirement of a world to fit
@@ -122,7 +126,7 @@
         </tr>
         <tr>
             <th>
-                <a href="writings/forever-archives.php">The Forever Archives</a>
+                <a href="/creation/writings/forever-archives.php">The Forever Archives</a>
             </th>
             <td>
                 Stuff I wrote that I do not feel comfortable placing anywhere else. Whether I worry about the implications,
@@ -132,7 +136,7 @@
         </tr>
         <tr>
             <th>
-                <a href="writings/mfot.php">The Man From Out of Time</a>
+                <a href="/creation/writings/story.php?story=mfot.html">The Man From Out of Time</a>
             </th>
             <td>
                 A draft of what was supposed to be a gift for an old friend. Unfortunately incredibly unfinished.

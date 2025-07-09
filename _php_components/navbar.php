@@ -20,7 +20,8 @@
         ├ <a href='/contact/index.php'>CONTACT/</a> <label class='dir-collapse-input-label' id='1_label' for='1'></label><br>
         <div class='dir-collapse'>
           │ │         <br>
-          │ ├ <a href="/contact/q-and-a.php">QandA</a>
+<!--          │ ├ <a href="/contact/q-and-a.php">QandA</a>-->
+            │ ├ <a class="content-disabled">QandA</a>
         </div>
         </li>
         │ <br>
@@ -29,32 +30,32 @@
         ├ <a href="/creation/">CREATION/</a> <label class='dir-collapse-input-label' id='2_label' for='2'></label><br>
           <div class='dir-collapse'> 
           │ │         <br>
-          │ ├ <a>GAMES</a>   <br>
+          │ ├ <a href="/creation/games/">GAMES</a>   <br>
           │ │         <br>
-          │ ├ <a>MUSIC</a> <br>
+          │ ├ <a href="/creation/musique/">MUSIC</a> <br>
           │ │         <br>
-          │ ├ <a>WRITINGS</a> <br>
+          │ ├ <a href="/creation/writings/">WRITINGS</a> <br>
           </div>
         </li>
         │ <br>
         <li>
         <input id='3' class='dir-collapse-input' type='checkbox'>
-        ├ <a>ETC/</a> <label class='dir-collapse-input-label' id='3_label' for='3'></label><br>
+        ├ <a href="/etc/">ETC/</a> <label class='dir-collapse-input-label' id='3_label' for='3'></label><br>
           <div class='dir-collapse'> 
           │ │         <br>
-          │ ├ <a>FURSONA</a>   <br>
+          │ ├ <a href="/etc/sonas/index.php">FURSONA</a>   <br>
           │ │         <br>
-          │ ├ <a>THX & CREDITS</a> <br>
+          │ ├ <a href="/etc/thx.php">THX & CREDITS</a> <br>
           │ │         <br>
-          │ ├ <a>ASSETS</a> <br>
+          │ ├ <a href="/download/">ASSETS</a> <br>
           </div>
         </li>
           │          <br>
-          ├ <a>SUPPORT</a> <br>
+          ├ <a href="/support.php">SUPPORT</a> <br>
 
       </dir>
     <div>
-        <a href="/creation/music/nettunes.php" target="_" style="position: absolute;bottom: 30px;width: 100%;left: 0;text-align: center;color:var(--color-terminal-greenlink">Want music while you browse?</a>
+<!--        <a href="/creation/musique/nettunes.php" target="_" style="position: absolute;bottom: 30px;width: 100%;left: 0;text-align: center;color:var(--color-terminal-greenlink">Want music while you browse?</a>-->
     </div>
     </nav>
     <script>

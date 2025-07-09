@@ -74,7 +74,7 @@
     text-decoration: none;
 	  text-align: center;
     text-transform: uppercase;
-    background-image: url("/_img/panel_pattern.png");
+    background-image: url("/_assets/panel_pattern.png");
     background-color: grey;
     color: antiquewhite;
     border: 2px solid grey;
@@ -96,7 +96,7 @@
     font-family: "ThinStix";
     margin-bottom: 15px;
     padding: 10px;
-    background-image: url("/_img/panel_pattern.png");
+    background-image: url("/_assets/panel_pattern.png");
     background-color: grey;
     border: 2px solid grey;
     border-radius:2px;
@@ -147,7 +147,7 @@
     border: 2px solid grey;
     border-radius:2px;
     box-shadow: inset 1px 1px 2px black, 5px 1px 1px black;
-    background-image: url("/_img/panel_pattern.png");
+    background-image: url("/_assets/panel_pattern.png");
 }
 .c-reply {
     display: block;
@@ -164,7 +164,7 @@
     margin: -10px;
     margin-top: 10px;
     padding: 10px;
-    background-image: url("/_img/panel_pattern.png");
+    background-image: url("/_assets/panel_pattern.png");
     background-color: grey;
 }
 
