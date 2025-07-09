@@ -1,0 +1,9 @@
+.player_main {
+    display: inline-block;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    background-color: orange;
+    width: 200px;
+    height: 100px;
+}

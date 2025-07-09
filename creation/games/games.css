@@ -1,0 +1,8 @@
+.table_image_container {
+    padding:0;
+    margin:0;
+}
+.table_image_container > img {
+    width: 100%;
+    aspect-ratio:16/9;
+}

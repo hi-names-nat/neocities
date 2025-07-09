@@ -1,0 +1,27 @@
+
+
+.pageBody {
+  background-image: url("bg-page.png")  ;
+}
+
+.imageBg {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background-image:url('/_assets/wallpaper.gif');
+  padding:10px;
+  height:30px;
+  background-size: cover;
+}
+
+#bg-dav {
+  background-image:url('https://combineoverwiki.net/images/1/17/Kleiner_eli_screen_different_office.jpg');
+  }
+  
+#bg-mfot {
+  background-image:url('read/mfot.png');
+  }
+  
+#bg-ad {
+  background-image:url('read/bg-page.png');
+  }

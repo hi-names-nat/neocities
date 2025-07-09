@@ -1,0 +1,200 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+
+:root {
+    --lilac: #C8A2C8;
+    --steel: #4D7EA8;
+}
+
+@font-face {
+  font-family: 'Rainy';
+  src: url("../_assets/_fonts/rainyhearts.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: 'ThinStix';
+  src: url("../_assets/_fonts/cr-thinstix.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: 'MagicBook';
+  src: url("../_assets/_fonts/cr-magicbook.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: 'ComicSans';
+  src: url("/_assets/_fonts/comicsans.ttf") format('truetype');
+}
+
+body {
+  background-color: black;
+  color: antiquewhite;
+  font-family: ThinStix;
+  background-image: url('../_assets/wallpaper.gif');
+  margin: 0;
+}
+
+hr {
+  margin:0 !important;
+  padding:0 !important;
+  box-shadow: 1px 1px 2px black;
+  background-color:grey;
+  border:2px solid grey;
+  
+}
+
+.fakedivider {
+  border: 2px solid grey;
+  box-shadow: 0px 1px 0px black;
+  margin:5px -10px;
+}
+
+.mainBody {
+  
+}
+
+h1:h2:h3:h4:h5:h6 {
+  color:antiquewhite;
+}
+
+h4 {
+}
+
+a {
+  color: antiquewhite;
+  text-decoration:none;
+}
+
+a:hover {
+  text-decoration:none;
+  color:var(--lilac);
+}
+
+li {
+height: min-content;
+  }
+
+ul {
+  /*list-style-image: url("/bullet_purewhite.png");*/
+  list-style-type:square;
+  font-family: ThinStix;  
+}
+/* Home */
+
+.secretSans {
+  font-family: ComicSans;  
+  font-size:8px;
+}
+
+.scrollingList {
+  overflow:scroll;
+  height:150px;
+  background-color:#575757;
+  background-image: url("../_assets/panel_pattern_a.png");
+  box-shadow: inset 1px 1px 2px black,
+  1px 1px 1px black;
+  border: 2px solid grey;
+  border-radius:5px
+}
+
+.directoryIFrame {
+  width:150px;
+  height:350px;  
+}
+
+.directory {
+  margin: 0;
+  padding: 0 0;
+}
+
+.directoryEntry {
+  margin: 2px 0;
+  padding: 3px 20px;
+  font-size: 15px;
+}
+
+.columnContainer {
+  display:flex;
+  flex-flow:column;
+  justify-content:center;
+  flex-grow:3
+}
+
+.homePanel {
+  background-image: url("../_assets/panel_pattern.png");
+  border: 2px solid grey;
+  box-shadow: inset 1px 1px 2px black,
+  5px 1px 1px black;
+  border-radius:2px;
+  flex-grow:inherit;
+  padding:10px;
+  display:flex;
+  flex-flow:column;
+}
+
+.panelPanel {
+  background-image: url("../_assets/panel_pattern_a.png");
+  border: 2px solid grey;
+  box-shadow: inset 1px 1px 2px black,
+  1px 1px 1px black;
+  border-radius:5px
+}
+
+.hidden {
+  color: #6f6969  
+}
+
+.button {
+  margin: 2px;
+  width:88px;
+  height:31px;
+}
+
+#iframebody {
+  background-image:none;  
+}
+
+#aside {
+  font-size: 12px;  
+  margin:12px;
+}
+
+#ImageHead {
+  background-image: url("../_assets/splatsville-dusk-blur.png");
+  display: flex;
+  flex-flow: column;
+  padding: 5px 0;
+  height: 150px;
+  margin-top: 0;
+  border-top: none;
+  justify-content: end;
+  box-shadow: inset 1px 0px 2px black;
+}
+
+#sideHeader {
+  text-align:center;
+  margin-bottom:5px;
+  margin-top:2px;
+}
+
+#welcome {
+  font-size: 18px;
+}
+
+/* Writings */
+
+.dingParent:hover > .dingChild {
+  color: var(--lilac);
+  text-decoration: underline var(--lilac)
+}
+
+.SummaryBody:hover {
+    color: antiquewhite;
+    text-decoration: none;
+}
+  
+.SummaryQuote:hover {
+    color: antiquewhite;
+    text-decoration: none;
+}

@@ -1,0 +1,20 @@
+body {
+    background-color: #ecc3c8;
+}
+
+h1, h2, h3, h4 {
+    background-color: transparent;
+    color: white;
+}
+
+p, i {
+    color:white
+}
+
+hr {
+    color: white;
+}
+
+table td, table th {
+    background-color: transparent;
+}

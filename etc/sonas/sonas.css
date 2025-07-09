@@ -1,0 +1,19 @@
+.sona_table {
+
+}
+
+.sona_table th, .sona_table td {
+    background-color: transparent;
+
+}
+
+.table_sona_image {
+    background-size: contain;
+    background-repeat:no-repeat;
+    height: 220px;
+    width: 220px;
+}
+
+.table_sona_image:hover {
+    box-shadow: black 2px 2px 5px;
+}
