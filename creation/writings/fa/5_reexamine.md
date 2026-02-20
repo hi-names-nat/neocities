@@ -1,4 +1,4 @@
-# Entry 6 - Re-Examine
+## 2/20/26
 
 I realize that I've been handed a lot. A lot that I didnt decide upon, a lot decided for me by others, and a lot decided for me by versions of me that don't truly exist anymore.
 
