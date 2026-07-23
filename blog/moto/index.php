@@ -9,15 +9,15 @@
          This makes it easier to make new pages for your site. -->
     <link href="/style.css" rel="stylesheet" type="text/css" media="all">
     <link href="blog_styles.css" rel="stylesheet" type="text/css" media="all">
-
+    <link href="moto.css" rel="stylesheet" type="text/css" media="all">
 </head>
 <body>
     <div class="content" id="content">
-        <h1 class="h0" aria-hidden="true" role="presentation">motomotomotomotomotomotomotomotomotomotomotomotomoto<b class="h0_inner" aria-hidden="false">Blog</b>blogblogblogblogblog</h1>
-          
-          <?php require '../_php_components/navbar.php' ?>
+        <h1 class="h0" aria-hidden="true" role="presentation">motomotomotomotomotomotomotomotomotomotomotomotomoto<b class="h0_inner" aria-hidden="false">Motoblog</b>blogblogblogblogblog</h1>
+                    
+          <?php $NoCore = True; require '../../_php_components/navbar.php' ?>
           <?php
-            require __DIR__ . '/../vendor/autoload.php';
+            require __DIR__ . '/../../vendor/autoload.php';
             use Michelf\MarkdownExtra;
 
             $start = $_GET['start'] ?? 0;

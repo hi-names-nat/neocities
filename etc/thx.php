@@ -27,16 +27,20 @@
         </li>
         <li class="list">background image for "Shopkeep" on Writings by <a href="https://www.flickr.com/photos/14922165@N00/8847022426">Nicholas_T</a></li>
         <li class="list">background image for "Finalboss" on Writings by <a href="https://www.flickr.com/photos/38446022@N00/4007497950">floodllama</a></li>
+        <li class="list">PHP Atom Feed generator by <a href="https://starbeamrainbowlabs.com/code/phpatomgenerator/">Starbeamrainbowlabs</a></li>
     </ul>
     <h2>Thanks</h2>
     <ul>
-        <li class="list">Design inspired heavily by <a target="_blank" href="https://msx.horse">em essex</a>.</li>
+      <li class="list">Thank you to my wonderful wife <a href="https://bsky.app/profile/fluffdrgn.casa">Reykreyth Skye</a> for the constant
+          support and encouragement. You are my world.</a></li>
+        <li class="list">To the creatures who have welcomed me into their lives and made me an important piece, not only Reykreyth but everyone else,
+        Thank you immensely. I hope that I live up to your love and expectations.</li>
+       <li class="list">Design inspired heavily by <a target="_blank" href="https://msx.horse">em essex</a>.</li>
         <li class="list">Some elements inspired by <a target="_blank" href="https://msx.gay">msx.gay</a></li>
         <li class="list">All games featured thanks to the respective folks who worked on them. Love you all.</li>
-        <li class="list">Thanks to <a href="https://bsky.app/profile/fluffdrgn.casa">Reykreyth Skye</a> for the constant support and encouragement.</a></li>
         <li class="list">Thanks to [anonymous] and the rest of Frostbreak for much of the same as above.</li>
         <li class="list">Thanks to all those who otherwise I'm afraid to list. You guys got me here, whether you like it or not.
-        I still care about y'all, whether you like it or not.</li>
+        I still care about y'all.</li>
     </ul>
     <p>And thanks to you, for being interested enough to navigate here. You're cool.</p>
 </div>
