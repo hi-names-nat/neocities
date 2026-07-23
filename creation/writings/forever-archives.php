@@ -27,7 +27,7 @@
     require __DIR__ . '/../../vendor/autoload.php';
     use Michelf\MarkdownExtra;
 
-    $sel = $_GET['entry']; if (empty($sel)) {$sel = 0;}
+    $sel = $_GET['entry'] ?? 0;
 
 
     $arr = scandir("fa/");

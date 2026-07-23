@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HEX/BLOG</title>
+    <title>HEX/MOTOBLOG</title>
     <!-- The style.css file allows you to change the look of your web pages.
          If you include the next line in all your web pages, they will all share the same look.
          This makes it easier to make new pages for your site. -->
@@ -13,7 +13,7 @@
 </head>
 <body>
     <div class="content" id="content">
-        <h1 class="h0" aria-hidden="true" role="presentation">blogblogblogblogblogblogblogblogblogblogblogblogblogblog<b class="h0_inner" aria-hidden="false">Blog</b>blogblogblogblogblog</h1>
+        <h1 class="h0" aria-hidden="true" role="presentation">motomotomotomotomotomotomotomotomotomotomotomotomoto<b class="h0_inner" aria-hidden="false">Blog</b>blogblogblogblogblog</h1>
           
           <?php require '../_php_components/navbar.php' ?>
           <?php

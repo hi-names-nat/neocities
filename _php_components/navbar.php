@@ -1,6 +1,7 @@
 <link href="/style_sidepanel.css" rel="stylesheet" type="text/css" media="all">
 <?php
-    if  (!$NoCore) {
+
+if  (empty($NoCore) || !$NoCore) {
         echo "<img class='img_floater' src='/_assets/core.png' aria-hidden='true' role='presentation'>";
     }
 ?>
